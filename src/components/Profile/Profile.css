@@ -1,0 +1,40 @@
+.middleContainer{
+    display: flex;
+    justify-content: center;
+}
+.containerWidth{
+    width: 604px;
+    background-color: rgba(158, 156, 152, 0.11);
+    margin-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.profileLayout{
+    display: flex;
+    justify-content: center;
+}
+
+.profilePhoto{
+    width: 180px;
+    height: 180px;
+    margin-top: 70px;
+    position: absolute;
+    align-self: flex-end;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.coverPhoto{
+    width: 600px;
+    height: 250px;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.userNameInProfile{
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+

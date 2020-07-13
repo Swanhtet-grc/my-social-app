@@ -1,0 +1,29 @@
+.post {
+    background-color: rgb(217, 255, 205);
+    width: 550px;
+    min-height: 200px;
+    max-height: 600px;
+    margin: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.postContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.userName {
+    align-self: flex-start;
+    margin: 10px;
+}
+
+.postContent{
+    align-self: flex-start;
+    margin: 20px;
+    line-height: 1.5em;
+    text-align: left;
+}

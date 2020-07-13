@@ -1,0 +1,30 @@
+.contentInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+.UploadContent{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+input{
+    width: 70px;
+    align-self: center;
+    margin: 10px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 3px;
+    border-color: rgba(0, 0, 255, 0.541);
+    background-color: rgba(0, 0, 255, 0.541);
+}
+
+textarea{
+    height: 200px;
+    margin: 10px;
+    border-color: rgba(0, 0, 255, 0.541);
+    border-radius: 5px;
+}
