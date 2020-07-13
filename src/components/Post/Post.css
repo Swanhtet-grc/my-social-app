@@ -17,13 +17,25 @@
 }
 
 .userName {
-    align-self: flex-start;
-    margin: 10px;
+    align-self: center;
 }
 
 .postContent{
     align-self: flex-start;
-    margin: 20px;
+    margin: 10px;
     line-height: 1.5em;
     text-align: left;
+}
+
+.profilePhotoInPost{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.imageContainer{
+    display: flex;
+    flex-direction: row;
 }

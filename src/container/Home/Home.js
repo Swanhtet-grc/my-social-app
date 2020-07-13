@@ -4,6 +4,7 @@ import "./Home.css"
 export default function Home() {
     return (
         <div className="homeLayout">
+        <input type="text" className="searchButton" placeholder="Search..." />        
         <div className="postLayout">
         <Post/>
         <Post/>

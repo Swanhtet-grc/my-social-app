@@ -1,11 +1,20 @@
 .postLayout{
     background-color: rgba(158, 156, 152, 0.11);
-    width: 600px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    flex-direction: column;
+    align-self: center;
 }
 
 .homeLayout{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.searchButton{
+    width: 200px;
 }

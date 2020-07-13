@@ -5,7 +5,7 @@ export default function UploadContent() {
         <div className="UploadContent">
         <form className="contentInput">
         <textarea/>
-        <input type="submit" value="Post" />
+        <input className="postUpload" type="submit" value="Post" />
       </form>
         </div>
     )
