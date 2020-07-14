@@ -1,0 +1,13 @@
+.userList{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.userListContainer{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,31 @@
+.Card {
+    min-width: 130px;
+    min-height: 90px;
+    max-width: 220px;
+    max-height: 280px;
+    margin: 1.8%;
+    border: 1px solid #eee;
+    box-shadow: 1px 2px 3px #ccc;
+    text-align: center;
+    background-color: rgba(145, 209, 136, 0.712);
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+    margin: 30px;
+  }
+  
+  .Card:hover {
+    background-color: rgba(34, 202, 12, 0.472);
+    transform: scale(1.1);
+  }
+  
+
+  
+  a {
+    text-decoration: none;
+  }
+
+  .userPhoto{
+      width: 200px;
+      height: 200px;
+  }
