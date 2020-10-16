@@ -11,12 +11,20 @@ export default function Profile() {
             <img className="coverPhoto" src={js}></img>
             <img className="profilePhoto" src={profile}></img>
         </div>
-        <h2 className="userNameInProfile">My Name</h2>
-        <p>my bio</p>
-        <Post/>
-        <Post/>
-        <Post/>
-        <Post/>
+        <h2 className="userNameInProfile">Swan Htet</h2>
+        <p>Software Engineer | Full-Stack Developer</p>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+        <Post image={profile} name={"Swan Htet"}/>
+
         </div>
         </div>
     )

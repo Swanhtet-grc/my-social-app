@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Post.css"
 import profile from "../../photos/profile.png"
-export default function Post() {
+export default function Post(props) {
     return (
         <div className="postContainer">
         <div className="post">
             <div className="imageContainer">
-            <img className="profilePhotoInPost" src={profile}></img>
-            <h3 className="userName">My Name</h3>
+            <img className="profilePhotoInPost" src={props.image}></img>
+            <h3 className="userName">{props.name}</h3>
             </div>
             <p className="postContent">A paragraph is a series of related
              sentences developing a central idea, called the topic. 
