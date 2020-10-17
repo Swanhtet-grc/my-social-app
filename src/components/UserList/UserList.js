@@ -16,16 +16,17 @@ export default function UserList() {
     return (
         <div className="userListContainer">
         <div className="userList">
-        <Card image={img1}/>
-        <Card image={img2}/>
-        <Card image={img3}/>
-        <Card image={img4}/>
-	<Card image={profile}/>
-        <Card image={img5}/>
-        <Card image={img6}/>
-        <Card image={img7}/>
-        <Card image={img8}/>
-        <Card image={img9}/>
+	<Card image={img1} name={"Olivia Smith"}/>
+        <Card image={img2} name={"William Jones"}/>
+        <Card image={img3} name={"Liam Garcia"}/>
+        <Card image={img4} name={"Logan Paul"}/>
+        <Card image={profile} name={"Swan Htet"}/>
+        <Card image={img5} name={"Mason Davis"}/>
+        <Card image={img6} name={"Daniel Johnson"}/>
+        <Card image={img7} name={"Ava Miller"}/>
+        <Card image={img8} name={"Emma Lopez"}/>
+        <Card image={img9} name={"Sophia Martinez"}/>
+
 	</div>
         </div>
     )
