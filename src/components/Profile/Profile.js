@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Profile.css"
 import js from "../../photos/js.png"
-import profile from "../../photos/profile.png"
+import profile from "../../photos/office-pic.jpeg"
 import Post from '../Post/Post'
 export default function Profile() {
     return (   
